@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- displays site properly based on user's device -->
+      <link rel="stylesheet" href="../assets/fonts/HankenGrotesk.ttf">
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="./assets/images/favicon-32x32.png"
+      />
+      <link rel="stylesheet" href="style.css">
+      <title>Frontend Mentor | Results summary component</title>
+
+      <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+      <style>
+         .attribution {
+            margin-top: 2rem;
+            font-size: 11px;
+            text-align: center;
+         }
+         .attribution a {
+            color: hsl(228, 45%, 44%);
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <div class="container-left">
+            <span class="con-left__head">Your result</span>
+
+            <div class="score">
+               <span>76</span><small>of 100</small>
+            </div>
+            <h2 class="remark-left">Great</h2>
+            <p class="remark-details">
+               You scored higher than 65% of the people who have taken these tests
+         </p>
+         </div>
+
+         <div class="container-right">
+            <span class="con-right__head">Summary</span>
+            <ul>
+               <li class="text">
+                  <span class="text-left">
+                     <img src="./assets/images/icon-reaction.svg"> <span class="text-caption red-text">Reaction</span>
+                  </span>
+                  <span class="text-right">
+                     <small>80</small> / 100
+                  </span>
+               </li>
+
+
+               <li class="text">
+                  <span class="text-left">
+                     <img src="./assets/images/icon-memory.svg"> <span class="text-caption yellow-text">Memory</span>
+                  </span>
+                  <span class="text-right">
+                     <small>92</small> / 100
+                  </span>
+               </li>
+               <li class="text">
+                  <span class="text-left">
+                     <img src="./assets/images/icon-verbal.svg"> <span class="text-caption green-text">Verbal</span>
+                  </span>
+                  <span class="text-right">
+                     <small>61</small> / 100
+                  </span>
+               </li>
+
+               
+               <li class="text">
+                  <span class="text-left">
+                     <img src="./assets/images/icon-visual.svg"> <span class="text-caption blue-text">Visual</span>
+                  </span>
+                  <span class="text-right">
+                     <small>72</small> / 100
+                  </span>
+               </li>
+               
+            </ul>
+
+            <button class="btn">Continue</button>
+         </div>
+      </div>
+
+
+
+
+
+      <div class="attribution">
+         Challenge by
+         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+         >. Coded by <a href="#">Emilola Divine</a>.
+      </div>
+   </body>
+   <script src="/script.js"></script>
+</html>
